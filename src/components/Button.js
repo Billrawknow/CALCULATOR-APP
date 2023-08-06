@@ -18,7 +18,7 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
       } else if (equation == "") {
         setEquation(text);
         setDisplay(text);
-        
+
       } else if (text === "+/-") {
         setDisplay(display * -1);
         setEquation(equation * -1);
@@ -32,6 +32,7 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
         setDisplay(display + " x ");
         setEquation(equation + " * ");
       } else if (text === "+") {
+        
         setDisplay(display + " + ");
         setEquation(equation + " + ");
       } else if (text === "-") {
