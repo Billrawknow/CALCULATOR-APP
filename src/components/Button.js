@@ -18,7 +18,6 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
       } else if (equation == "") {
         setEquation(text);
         setDisplay(text);
-        
       } else if (text === "+/-") {
         setDisplay(display * -1);
         setEquation(equation * -1);
@@ -46,7 +45,6 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
         setEquation(equation + text);
       }  
   }
- 
   return (
     <button className="button"
       onClick={handleClick}
