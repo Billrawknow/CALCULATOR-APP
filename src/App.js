@@ -15,6 +15,7 @@ function App() {
       <Button text="%" display={display} setDisplay={setDisplay} equation={equation} setEquation={setEquation} />
       <Button text="÷" display={display} setDisplay={setDisplay} equation={equation} setEquation={setEquation} />
      </div>
+     
      <div className="buttonContainer">
       <Button text="7" display={display} setDisplay={setDisplay} equation={equation} setEquation={setEquation} />
       <Button text="8" display={display} setDisplay={setDisplay} equation={equation} setEquation={setEquation} />
