@@ -43,8 +43,7 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
       } else {
         setDisplay(display === "0" ? text : display + text);
         setEquation(equation + text);
-      }  
-  
+      } 
   }
   return (
     <button className="button"
