@@ -51,5 +51,4 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
     >{text}</button>
   );
 }
- 
 export default Button;
