@@ -31,7 +31,6 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
         setDisplay(display + " x ");
         setEquation(equation + " * ");
       } else if (text === "+") {
-        
         setDisplay(display + " + ");
         setEquation(equation + " + ");
       } else if (text === "-") {
